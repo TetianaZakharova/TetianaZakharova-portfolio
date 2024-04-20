@@ -1,0 +1,122 @@
+@import '../../assets/styles/variables.scss';
+
+#portfolio {
+    width: 100vw;
+    min-height: calc(100vh - 5rem);
+    background: rgba(7, 136, 255, .1);
+    padding: 70px 0;
+
+    .container {
+        max-width: 75rem;
+        margin: 0 auto;
+
+        padding: 0 2rem;
+    }
+
+    .promo-container {
+        display: grid;
+        grid-gap: 2rem;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .promo-wrap {
+        background-color: white;
+        padding: .9rem;
+        border-radius: .5rem;
+
+    }
+
+    .img-wrap {
+        width: 100%;
+        overflow: hidden;
+        height: 55%;
+
+        img {
+            width: 100%;
+            height: 100%; // ==??
+            border-radius: .5rem;
+        }
+
+        &:hover {
+            cursor: pointer;
+
+            img {
+                scale: 1.5;
+                transition: .5s;
+            }
+        }
+    }
+
+
+    .section-title {
+        @extend %section-title;
+    }
+
+    .promo-details {
+        display: flex;
+        flex-direction: column;
+        grid-gap: .5rem;
+        font-weight: 300;
+        color: black;
+        height: 45%;
+        padding-top: 14px;
+    }
+
+    .promo-title {
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+
+    .promo-description {
+        font-size: 14px;
+        color: #707476;
+    }
+
+    .demo-link {
+        margin-top: auto;
+        font-size: .9rem;
+        font-weight: 600;
+
+        a {
+            display: flex;
+            align-items: center;
+            grid-gap: 0.5rem;
+        }
+    }
+
+
+
+    @media screen and (max-width: 920px) {
+        .promo-container {
+             grid-template-columns: 1fr 1fr;
+        }
+        .promo-wrap {
+            grid-template-columns: 100%;
+        }
+
+        .promo-details {
+            margin-bottom: 1rem;
+            grid-gap: .7rem;
+        }
+  
+
+    }
+
+    @media screen and (max-width: 540px) {
+
+        padding: 30px 0;
+
+        .promo-container {
+            grid-template-columns: 1fr;
+       }
+       .img-wrap, .promo-details {
+        height: auto;
+       }
+ 
+        .promo-title {
+            font-size: 1.3rem;
+        }
+
+    }
+
+}

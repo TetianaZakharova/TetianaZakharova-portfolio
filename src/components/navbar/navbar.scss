@@ -1,0 +1,130 @@
+@import '../../assets/styles/variables.scss';
+
+.navbar {
+    background: $backgroundMain;
+    height: 5rem;
+    width: 100vw;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+
+    .container {
+        max-width: 75rem;
+        margin: 0 auto;
+        padding: 1rem 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo-wrap {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .logo {
+        object-fit: cover;
+        height: 2.5rem;
+        border-radius: .5rem;
+
+    }
+
+    .logo-slogan {
+        font-size: 2rem;
+        font-weight: 700;
+        margin-left: 6px;
+    }
+
+    .desktopMenuListItem {
+        margin: 1rem;
+        cursor: pointer;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+
+
+        &:hover {
+            color: $secondColor;
+            padding-bottom: 0.5rem;
+            border-bottom: 3px solid $secondColor;
+            transition: all .2s;
+        }
+    }
+
+    .desktopMenuBtn {
+        @extend %btn-base-orange;
+        display: flex;
+        // padding: 1rem 2rem;
+        font-family: "Space Grotesk", sans-serif;
+        background-color: $secondColor;
+        font-weight: 700;
+        letter-spacing: 1.5px;
+        a {
+            padding: 1rem 2rem;
+        }
+    }
+
+    .active {
+        color: $secondColor;
+        padding-bottom: 0.5rem;
+        border-bottom: 3px solid $secondColor;
+    }
+
+    .activeBtn {
+        color: white;
+    }
+
+    .navMenu {
+        position: absolute;
+        top: 4rem;
+        right: 2rem;
+        z-index: 6;
+        display: flex;
+        flex-direction: column;
+        padding: .5rem;
+        height: fit-content;
+        min-width: 15rem;
+        background: rgb(40, 40, 40);
+        border-radius: 1rem;
+
+
+        .listItem {
+            color: white;
+            padding: 0.5rem 3rem;
+            margin: 0.25rem;
+            background: rgb(30, 30, 30);
+
+            &:hover {
+                cursor: pointer;
+                color: $secondColor;
+            }
+        }
+    }
+
+    .burger-menu {
+        display: none;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+
+}
+
+@media screen and (max-width: 900px) {
+    .navbar {
+
+        .burger-menu {
+            display: flex;
+        }
+
+        .desktopMenu,
+        .desktopMenuBtn {
+            display: none;
+        }
+
+    }
+}

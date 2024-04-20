@@ -1,0 +1,36 @@
+.section-header {
+    background: rgba(7, 136, 255, .2);
+    border-radius: 4px;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    line-height: 20px;
+    padding: 5px 12px;
+    text-transform: uppercase;
+}
+
+.social-wrap {
+    width: 46px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border: 2px solid white;
+    background-color: #0a66c2;
+
+    &.mail {
+        background-color: #f26798;
+    }
+
+    &.telegram {
+        background-color: #30a4da;
+    }
+}
+
+.contact-icon {
+    fill: white;
+
+}

@@ -1,0 +1,134 @@
+@import '../../assets/styles/variables.scss';
+
+#experience {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 70px 2rem;
+    //========   
+    min-height: calc(100vh - 5rem);
+
+    .section-title {
+        @extend %section-title;
+    }
+
+    .experience-wrap {
+        display: flex;
+        flex-direction: column;
+        grid-gap: 1rem;
+    }
+
+    .experience-item {
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(7, 136, 255, .1);
+        border-radius: .5rem;
+        padding: 1.5rem;
+        grid-gap: 1rem;
+
+        .company-wrap {
+            display: flex;
+            align-items: flex-start;
+            grid-gap: .5rem;
+        }
+
+        .role-info {
+            width: 30%;
+            background-color: $secondColor;
+            border-radius: .5rem;
+            padding: 20px;
+
+            &.stack {
+                background-color: transparent;
+                width: 100%;
+                padding: 0;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                grid-gap: 0.5rem;
+
+                .stack-label {
+                    display: flex !important;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: row;
+                    background: transparent;
+                    border: 1px solid white;
+                    color: #ffffff;
+                    text-transform: none;
+                    font-size: 1rem;
+                }
+            }
+
+            h4 {
+                font-size: 1.2rem;
+                font-weight: 700;
+            }
+
+            span {
+                font-size: 12px;
+                opacity: .8;
+                font-weight: 400;
+                text-transform: uppercase;
+            }
+
+            p {
+                font-size: 12px;
+                margin-bottom: 12px;
+                font-weight: 400;
+                text-transform: uppercase;
+            }
+
+            label {
+                display: inline-block !important;
+                background: #fff;
+                border-radius: 30px;
+                color: #040c16;
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 1;
+                padding: 8px 16px;
+                text-transform: uppercase;
+            }
+        }
+
+        .company-name {
+            width: 70%;
+            padding: .5rem;
+
+            .name {
+                font-size: 1.5rem;
+                font-weight: 600;
+            }
+
+            .description {
+                margin-top: 0.5rem;
+                font-weight: 200;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 733px) {
+    #experience {
+        height: auto;
+
+        .company-wrap {
+            flex-direction: column;
+        }
+
+        .experience-item .role-info,
+        .experience-item .company-name {
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 540px) {
+    #experience {
+        padding: 30px 2rem;
+    }
+}
