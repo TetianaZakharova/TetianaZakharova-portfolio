@@ -99,7 +99,10 @@ export const Contacts = () => {
   return (
     <section id="contacts">
       <div className="container">
-        <h2 className="section-title">Contacts</h2>
+        <h6>
+          <span className="section-header">Contacts</span>
+        </h6>
+        <h2 className="section-title">Let's talk</h2>
 
         <div className="contacts-wrap">
           <div className="contact-container">

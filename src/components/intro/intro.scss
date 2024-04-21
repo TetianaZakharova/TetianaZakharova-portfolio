@@ -98,7 +98,7 @@
         .portrait-wrap {
             display: flex;
             justify-content: center;
-            padding: 0;  
+            padding: 0;
         }
 
         .bg {
@@ -110,6 +110,9 @@
             padding-right: 0;
             grid-gap: .5rem;
             // align-items: center;
+            .introText {
+                font-size: 2.5rem;
+            }
 
             .introName {
                 font-size: 2rem;
@@ -150,6 +153,8 @@
 
         .introInfo {
             grid-gap: 1.5rem;
+
+
 
             .introName {
                 font-size: 2.5rem;
