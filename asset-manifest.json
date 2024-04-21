@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/TetianaZakharova-portfolio/static/css/main.dd59f91f.css",
-    "main.js": "/TetianaZakharova-portfolio/static/js/main.38b43372.js",
+    "main.css": "/TetianaZakharova-portfolio/static/css/main.2eaf88a6.css",
+    "main.js": "/TetianaZakharova-portfolio/static/js/main.059a20dd.js",
     "static/media/Zakharova-Front-portfolio-3.png": "/TetianaZakharova-portfolio/static/media/Zakharova-Front-portfolio-3.365efdd6d055944029ec.png",
     "static/media/60311.jpg": "/TetianaZakharova-portfolio/static/media/60311.9d3e8696b79299a11c92.jpg",
     "static/media/PMportfolio-2.png": "/TetianaZakharova-portfolio/static/media/PMportfolio-2.deee383e60a9c0565353.png",
@@ -13,11 +13,11 @@
     "static/media/tracker.png": "/TetianaZakharova-portfolio/static/media/tracker.ded248aaf400f1d845fd.png",
     "static/media/logo-tanya-6.png": "/TetianaZakharova-portfolio/static/media/logo-tanya-6.a23ee19d81f9682e31c4.png",
     "index.html": "/TetianaZakharova-portfolio/index.html",
-    "main.dd59f91f.css.map": "/TetianaZakharova-portfolio/static/css/main.dd59f91f.css.map",
-    "main.38b43372.js.map": "/TetianaZakharova-portfolio/static/js/main.38b43372.js.map"
+    "main.2eaf88a6.css.map": "/TetianaZakharova-portfolio/static/css/main.2eaf88a6.css.map",
+    "main.059a20dd.js.map": "/TetianaZakharova-portfolio/static/js/main.059a20dd.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd59f91f.css",
-    "static/js/main.38b43372.js"
+    "static/css/main.2eaf88a6.css",
+    "static/js/main.059a20dd.js"
   ]
 }
