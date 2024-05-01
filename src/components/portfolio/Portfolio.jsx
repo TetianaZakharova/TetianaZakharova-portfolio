@@ -21,14 +21,27 @@ export const Portfolio = () => {
                 <div className="promo-details">
                   <h4 className="promo-title">{item.title}</h4>
                   <p className="promo-description">{item.description}</p>
-                  <div className="demo-link">
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href={item.link}
-                    >
-                      DEMO <FaArrowUpRightDots size={15} />
-                    </a>
+                  <div className='demo-wrap'>
+                    <div className="demo-link">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href={item.link}
+                      >
+                        DEMO <FaArrowUpRightDots size={15} />
+                      </a>
+                    </div>
+                    <div className="demo-link">
+                      {item?.source ? (
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          href={item.source}
+                        >
+                          Source <FaArrowUpRightDots size={15} />
+                        </a>
+                      ) : null}
+                    </div>
                   </div>
                 </div>
               </div>

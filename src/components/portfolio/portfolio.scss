@@ -71,9 +71,14 @@
         font-size: 14px;
         color: #707476;
     }
+    .demo-wrap {
+        display: flex;
+        justify-content: space-between;
+        margin-top: auto;
+    }
 
     .demo-link {
-        margin-top: auto;
+        // margin-top: auto;
         font-size: .9rem;
         font-weight: 600;
 

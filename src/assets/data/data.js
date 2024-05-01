@@ -2,8 +2,9 @@ import readingKyiv from "../projects/kyivreading-3.png";
 import farmadol from "../projects/Farmak-2.png";
 import dashaMalahova from "../projects/Dasha-2.png";
 import oksanaGurina from "../projects/PMportfolio-2.png";
-import qencode from "../projects/qencode-2.png";
-import finTracker from '../projects/tracker.png'
+import emiorad from "../projects/emiorad.png";
+import finTracker from "../projects/tracker.png";
+import diagrams from "../projects/d3-diagrams.png";
 
 export const workexperience = [
   {
@@ -68,6 +69,31 @@ export const workexperience = [
 
 export const projects = [
   {
+    id: 7,
+    title: "D3.js Diagrams",
+    src: `${diagrams}`,
+    description: "Charts and graph to help you visualize your data easily",
+    link: "https://tetianazakharova.github.io/diagrams-d3/",
+    source: "https://github.com/TetianaZakharova/diagrams-d3",
+  },
+  {
+    id: 4,
+    title: "Marketing PM Portfolio",
+    src: `${oksanaGurina}`,
+    description: "Portfolio for Marketing PM Oksana Gurina",
+    link: "https://tetianazakharova.github.io/OksanaGurina-portfolio/",
+    source: "https://github.com/TetianaZakharova/OksanaGurina-portfolio",
+  },
+  {
+    id: 6,
+    title: "Finance Tracker + Login form (TT)",
+    src: `${finTracker}`,
+    description:
+      "Task: create personal Finance Tracker with SignUP and Login. use FireBase",
+    link: "https://financetracker-81392.web.app/login",
+    source: "https://github.com/TetianaZakharova/finance-tracker",
+  },
+  {
     id: 1,
     title: "Reading Kyiv",
     src: `${readingKyiv}`,
@@ -91,26 +117,12 @@ export const projects = [
     link: "https://dashamalakhova.com/projects/my-theatre/",
   },
   {
-    id: 4,
-    title: "Marketing PM Portfolio",
-    src: `${oksanaGurina}`,
-    description: "Portfolio for Marketing PM Oksana Gurina",
-    link: "https://tetianazakharova.github.io/OksanaGurina-portfolio/",
-  },
-  {
     id: 5,
-    title: "Qencode Login Interface (TT)",
-    src: `${qencode}`,
+    title: "Emiorad Login Interface (TT)",
+    src: `${emiorad}`,
     description:
-      "Task: create an integrated version of the Qencode Login UI using React and Authentication API specification ",
+      "Task: create an integrated version of the Emiorad Login UI using React and Authentication API specification ",
     link: "https://tetianazakharova.github.io/login-api-interface/",
-  },
-  {
-    id: 6,
-    title: "Finance Tracker + Login form (TT)",
-    src: `${finTracker}`,
-    description:
-      "Task: create personal Finance Tracker with SignUP and Login. use FireBase",
-    link: "https://financetracker-81392.web.app/login",
+    source: "https://github.com/TetianaZakharova/login-api-interface",
   },
 ];
