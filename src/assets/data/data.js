@@ -5,6 +5,8 @@ import oksanaGurina from "../projects/PMportfolio-2.png";
 import emiorad from "../projects/emiorad.png";
 import finTracker from "../projects/tracker.png";
 import diagrams from "../projects/d3-diagrams.png";
+import knostic from "../projects/Knostic.png";
+import threatstop from "../projects/Threatstop.png";
 
 export const workexperience = [
   {
@@ -72,7 +74,7 @@ export const projects = [
     id: 7,
     title: "D3.js Diagrams",
     src: `${diagrams}`,
-    description: "Charts and graph to help you visualize your data easily",
+    description: "Charts and graph to help you visualize your data easily.",
     link: "https://tetianazakharova.github.io/diagrams-d3/",
     source: "https://github.com/TetianaZakharova/diagrams-d3",
   },
@@ -80,24 +82,32 @@ export const projects = [
     id: 4,
     title: "Marketing PM Portfolio",
     src: `${oksanaGurina}`,
-    description: "Portfolio for Marketing PM Oksana Gurina",
+    description: "Portfolio for Marketing PM Oksana Gurina.",
     link: "https://tetianazakharova.github.io/OksanaGurina-portfolio/",
     source: "https://github.com/TetianaZakharova/OksanaGurina-portfolio",
   },
   {
-    id: 6,
-    title: "Finance Tracker + Login form (TT)",
-    src: `${finTracker}`,
+    id: 9,
+    title: "Threatstop",
+    src: `${threatstop}`,
     description:
-      "Task: create personal Finance Tracker with SignUP and Login. use FireBase",
-    link: "https://financetracker-81392.web.app/login",
-    source: "https://github.com/TetianaZakharova/finance-tracker",
+      "HubSpot Web Pages. Created website for Threatstop - cybersecurity solutions for companies.",
+    link: "https://www.threatstop.com/",
   },
+  {
+    id: 8,
+    title: "Knostic",
+    src: `${knostic}`,
+    description:
+      "HubSpot Web Pages. Created website for Knostic - the world’s first provider of need-to-know access controls for Generative AI.",
+    link: "https://www.knostic.ai/",
+  },
+
   {
     id: 1,
     title: "Reading Kyiv",
     src: `${readingKyiv}`,
-    description: "The project that reveals Kyiv through Ukrainian literature",
+    description: "The project that reveals Kyiv through Ukrainian literature.",
     link: "https://www.readingkyiv.net/en/",
   },
   {
@@ -105,7 +115,7 @@ export const projects = [
     title: "Farmak - Farmadol",
     src: `${farmadol}`,
     description:
-      "Farmak - the Ukrainian pharmaceutical exporter of medicinal products",
+      "Farmak - the Ukrainian pharmaceutical exporter of medicinal products.",
     link: "https://farmak.ua/en/drugs/farmadol/",
   },
   {
@@ -113,7 +123,7 @@ export const projects = [
     title: "Dasha Malakhova",
     src: `${dashaMalahova}`,
     description:
-      "Website for Dasha Malakhova - Ukrainian theater and cinema actress, TV presenter",
+      "Website for Dasha Malakhova - Ukrainian theater and cinema actress, TV presenter.",
     link: "https://dashamalakhova.com/projects/my-theatre/",
   },
   {
@@ -121,8 +131,17 @@ export const projects = [
     title: "Emiorad Login Interface (TT)",
     src: `${emiorad}`,
     description:
-      "Task: create an integrated version of the Emiorad Login UI using React and Authentication API specification ",
+      "Task: create an integrated version of the Emiorad Login UI using React and Authentication API specification.",
     link: "https://tetianazakharova.github.io/login-api-interface/",
     source: "https://github.com/TetianaZakharova/login-api-interface",
+  },
+  {
+    id: 6,
+    title: "Finance Tracker + Login form (TT)",
+    src: `${finTracker}`,
+    description:
+      "Task: create personal Finance Tracker with SignUP and Login. use FireBase.",
+    link: "https://financetracker-81392.web.app/login",
+    source: "https://github.com/TetianaZakharova/finance-tracker",
   },
 ];
