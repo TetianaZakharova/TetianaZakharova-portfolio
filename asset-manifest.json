@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/TetianaZakharova-portfolio/static/css/main.4fb287b2.css",
-    "main.js": "/TetianaZakharova-portfolio/static/js/main.4e019bff.js",
+    "main.js": "/TetianaZakharova-portfolio/static/js/main.2552e200.js",
     "static/media/Zakharova-Front-portfolio-3.png": "/TetianaZakharova-portfolio/static/media/Zakharova-Front-portfolio-3.365efdd6d055944029ec.png",
     "static/media/60311.jpg": "/TetianaZakharova-portfolio/static/media/60311.9d3e8696b79299a11c92.jpg",
     "static/media/PMportfolio-2.png": "/TetianaZakharova-portfolio/static/media/PMportfolio-2.deee383e60a9c0565353.png",
+    "static/media/Netwall2.png": "/TetianaZakharova-portfolio/static/media/Netwall2.f361fd66c559b9878969.png",
     "static/media/Dasha-2.png": "/TetianaZakharova-portfolio/static/media/Dasha-2.fad222b78d638d5f4d82.png",
     "static/media/Farmak-2.png": "/TetianaZakharova-portfolio/static/media/Farmak-2.6702fd1aaf14d995cc85.png",
     "static/media/Knostic.png": "/TetianaZakharova-portfolio/static/media/Knostic.1bf72ddd0d07f82322ba.png",
@@ -18,10 +19,10 @@
     "static/media/logo-tanya-6.png": "/TetianaZakharova-portfolio/static/media/logo-tanya-6.a23ee19d81f9682e31c4.png",
     "index.html": "/TetianaZakharova-portfolio/index.html",
     "main.4fb287b2.css.map": "/TetianaZakharova-portfolio/static/css/main.4fb287b2.css.map",
-    "main.4e019bff.js.map": "/TetianaZakharova-portfolio/static/js/main.4e019bff.js.map"
+    "main.2552e200.js.map": "/TetianaZakharova-portfolio/static/js/main.2552e200.js.map"
   },
   "entrypoints": [
     "static/css/main.4fb287b2.css",
-    "static/js/main.4e019bff.js"
+    "static/js/main.2552e200.js"
   ]
 }
