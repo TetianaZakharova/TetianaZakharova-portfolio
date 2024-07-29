@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/TetianaZakharova-portfolio/static/css/main.4fb287b2.css",
-    "main.js": "/TetianaZakharova-portfolio/static/js/main.2bf84cbe.js",
+    "main.js": "/TetianaZakharova-portfolio/static/js/main.4e019bff.js",
     "static/media/Zakharova-Front-portfolio-3.png": "/TetianaZakharova-portfolio/static/media/Zakharova-Front-portfolio-3.365efdd6d055944029ec.png",
     "static/media/60311.jpg": "/TetianaZakharova-portfolio/static/media/60311.9d3e8696b79299a11c92.jpg",
     "static/media/PMportfolio-2.png": "/TetianaZakharova-portfolio/static/media/PMportfolio-2.deee383e60a9c0565353.png",
@@ -10,6 +10,7 @@
     "static/media/Knostic.png": "/TetianaZakharova-portfolio/static/media/Knostic.1bf72ddd0d07f82322ba.png",
     "static/media/kyivreading-3.png": "/TetianaZakharova-portfolio/static/media/kyivreading-3.d3ed9f1a26bd303edf67.png",
     "static/media/Threatstop.png": "/TetianaZakharova-portfolio/static/media/Threatstop.9b57fb1aff7da514b74f.png",
+    "static/media/Senserva.png": "/TetianaZakharova-portfolio/static/media/Senserva.0bc4d09322f92d77c0be.png",
     "static/media/d3-diagrams.png": "/TetianaZakharova-portfolio/static/media/d3-diagrams.e52b4ae116a7d479381d.png",
     "static/media/emiorad.png": "/TetianaZakharova-portfolio/static/media/emiorad.4682dac9777668f908fa.png",
     "static/media/logo-tanya-5.png": "/TetianaZakharova-portfolio/static/media/logo-tanya-5.5be2fe54c6cbbbb52ded.png",
@@ -17,10 +18,10 @@
     "static/media/logo-tanya-6.png": "/TetianaZakharova-portfolio/static/media/logo-tanya-6.a23ee19d81f9682e31c4.png",
     "index.html": "/TetianaZakharova-portfolio/index.html",
     "main.4fb287b2.css.map": "/TetianaZakharova-portfolio/static/css/main.4fb287b2.css.map",
-    "main.2bf84cbe.js.map": "/TetianaZakharova-portfolio/static/js/main.2bf84cbe.js.map"
+    "main.4e019bff.js.map": "/TetianaZakharova-portfolio/static/js/main.4e019bff.js.map"
   },
   "entrypoints": [
     "static/css/main.4fb287b2.css",
-    "static/js/main.2bf84cbe.js"
+    "static/js/main.4e019bff.js"
   ]
 }
