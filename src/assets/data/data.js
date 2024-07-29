@@ -8,6 +8,7 @@ import diagrams from "../projects/d3-diagrams.png";
 import knostic from "../projects/Knostic.png";
 import threatstop from "../projects/Threatstop.png";
 import senserva from "../projects/Senserva.png";
+import netwall from "../projects/Netwall2.png";
 
 export const workexperience = [
   {
@@ -76,15 +77,23 @@ export const projects = [
     title: "Threatstop",
     src: `${threatstop}`,
     description:
-      "HubSpot Web Pages. Created website for Threatstop - cybersecurity solutions for companies.",
+      "HubSpot CMS. ThreatStop - cybersecurity solutions for companies.",
     link: "https://www.threatstop.com/",
+  },
+  {
+    id: 11,
+    title: "Net-wall",
+    src: `${netwall}`,
+    description:
+      "HubSpot CMS. Net-Wall - Cybersecurity Products and Services in Montreal.",
+    link: "https://www.net-wall.com/",
   },
   {
     id: 8,
     title: "Knostic",
     src: `${knostic}`,
     description:
-      "HubSpot Web Pages. Created website for Knostic - the world’s first provider of need-to-know access controls for Generative AI.",
+      "HubSpot CMS. Knostic - the world’s first provider of need-to-know access controls for Generative AI.",
     link: "https://www.knostic.ai/",
   },
   {
@@ -100,7 +109,7 @@ export const projects = [
     title: "Senserva",
     src: `${senserva}`,
     description:
-      "HubSpot Web Pages. Created website for Senserva - an ISV member of the exclusive Microsoft Intelligent Security Association (MISA)",
+      "HubSpot CMS. Senserva - Custom Security Automation for the Microsoft Platform",
     link: "https://senserva.com/",
   },
   {
@@ -116,7 +125,7 @@ export const projects = [
     id: 1,
     title: "Reading Kyiv",
     src: `${readingKyiv}`,
-    description: "The project that reveals Kyiv through Ukrainian literature.",
+    description: "WordPress - The project that reveals Kyiv through Ukrainian literature.",
     link: "https://www.readingkyiv.net/en/",
   },
   {
@@ -135,15 +144,15 @@ export const projects = [
       "Website for Dasha Malakhova - Ukrainian theater and cinema actress, TV presenter.",
     link: "https://dashamalakhova.com/projects/my-theatre/",
   },
-  // {
-  //   id: 5,
-  //   title: "Emiorad Login Interface (TT)",
-  //   src: `${emiorad}`,
-  //   description:
-  //     "Task: create an integrated version of the Emiorad Login UI using React and Authentication API specification.",
-  //   link: "https://tetianazakharova.github.io/login-api-interface/",
-  //   source: "https://github.com/TetianaZakharova/login-api-interface",
-  // },
+  {
+    id: 5,
+    title: "Emiorad Login Interface (TT)",
+    src: `${emiorad}`,
+    description:
+      "Task: create an integrated version of the Emiorad Login UI using React and Authentication API specification.",
+    link: "https://tetianazakharova.github.io/login-api-interface/",
+    source: "https://github.com/TetianaZakharova/login-api-interface",
+  },
   {
     id: 6,
     title: "Finance Tracker + Login form (TT)",
