@@ -7,6 +7,7 @@ import finTracker from "../projects/tracker.png";
 import diagrams from "../projects/d3-diagrams.png";
 import knostic from "../projects/Knostic.png";
 import threatstop from "../projects/Threatstop.png";
+import senserva from "../projects/Senserva.png";
 
 export const workexperience = [
   {
@@ -71,22 +72,6 @@ export const workexperience = [
 
 export const projects = [
   {
-    id: 7,
-    title: "D3.js Diagrams",
-    src: `${diagrams}`,
-    description: "Charts and graph to help you visualize your data easily.",
-    link: "https://tetianazakharova.github.io/diagrams-d3/",
-    source: "https://github.com/TetianaZakharova/diagrams-d3",
-  },
-  {
-    id: 4,
-    title: "Marketing PM Portfolio",
-    src: `${oksanaGurina}`,
-    description: "Portfolio for Marketing PM Oksana Gurina.",
-    link: "https://tetianazakharova.github.io/OksanaGurina-portfolio/",
-    source: "https://github.com/TetianaZakharova/OksanaGurina-portfolio",
-  },
-  {
     id: 9,
     title: "Threatstop",
     src: `${threatstop}`,
@@ -101,6 +86,30 @@ export const projects = [
     description:
       "HubSpot Web Pages. Created website for Knostic - the world’s first provider of need-to-know access controls for Generative AI.",
     link: "https://www.knostic.ai/",
+  },
+  {
+    id: 4,
+    title: "Marketing PM Portfolio",
+    src: `${oksanaGurina}`,
+    description: "Portfolio for Marketing PM Oksana Gurina.",
+    link: "https://tetianazakharova.github.io/OksanaGurina-portfolio/",
+    source: "https://github.com/TetianaZakharova/OksanaGurina-portfolio",
+  },
+  {
+    id: 10,
+    title: "Senserva",
+    src: `${senserva}`,
+    description:
+      "HubSpot Web Pages. Created website for Senserva - an ISV member of the exclusive Microsoft Intelligent Security Association (MISA)",
+    link: "https://senserva.com/",
+  },
+  {
+    id: 7,
+    title: "D3.js Diagrams",
+    src: `${diagrams}`,
+    description: "Charts and graph to help you visualize your data easily.",
+    link: "https://tetianazakharova.github.io/diagrams-d3/",
+    source: "https://github.com/TetianaZakharova/diagrams-d3",
   },
 
   {
@@ -126,15 +135,15 @@ export const projects = [
       "Website for Dasha Malakhova - Ukrainian theater and cinema actress, TV presenter.",
     link: "https://dashamalakhova.com/projects/my-theatre/",
   },
-  {
-    id: 5,
-    title: "Emiorad Login Interface (TT)",
-    src: `${emiorad}`,
-    description:
-      "Task: create an integrated version of the Emiorad Login UI using React and Authentication API specification.",
-    link: "https://tetianazakharova.github.io/login-api-interface/",
-    source: "https://github.com/TetianaZakharova/login-api-interface",
-  },
+  // {
+  //   id: 5,
+  //   title: "Emiorad Login Interface (TT)",
+  //   src: `${emiorad}`,
+  //   description:
+  //     "Task: create an integrated version of the Emiorad Login UI using React and Authentication API specification.",
+  //   link: "https://tetianazakharova.github.io/login-api-interface/",
+  //   source: "https://github.com/TetianaZakharova/login-api-interface",
+  // },
   {
     id: 6,
     title: "Finance Tracker + Login form (TT)",
