@@ -57,7 +57,7 @@ export const workexperience = [
     date: "June 2020 - Dec 2020",
     responsibilities: [
       "Were created a web-sites with WordPress Advanced Custom Fields for clients.",
-      "Created custom WP Themes",
+      "Created custom WP Themes",     
     ],
     stack: [
       "WordPress ACF",

@@ -30,17 +30,38 @@ export const Experience = () => {
                     })}
                   </ul>
                 </div>
-              </div>                    
-              <div 
-              className="role-info stack"
-              >             
+              </div>
+              <div className="role-info stack">
                 {item.stack.map((item) => {
-                  return <label className='stack-label'>{item}</label>;
+                  return <label className="stack-label">{item}</label>;
                 })}
               </div>
             </div>
           );
         })}
+      </div>
+      <div>
+        A key factor in the success of the project was the uninterrupted
+        operation of the{" "}
+        <a
+          href="https://burobrew.wordpress.com"
+          target="_blank"
+          rel="noreferrer"
+          style={{ color: "#0988FF" }}
+        >
+          BuroBrew Cafflert barista robot
+        </a>
+      </div>
+      <div>
+        Un élément clé du succès du projet a été le fonctionnement ininterrompu
+        du{" "}
+        <a
+          href="https://burobrew.wordpress.com"
+          target="_blank"
+          style={{ color: "#0988FF" }}
+        >
+          robot-barista BuroBrew Cafflert
+        </a>
       </div>
     </section>
   );
